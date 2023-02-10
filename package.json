@@ -1,0 +1,19 @@
+{
+  "name": "fullexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "tu" : "cucumber-js features/counter.feature",
+    "demo" : "cucumber-js features/product_verification.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "@playwright/test": "^1.30.0",
+    "playwright": "^1.30.0"
+  }
+}
