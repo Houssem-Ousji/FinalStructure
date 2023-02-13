@@ -6,7 +6,7 @@
         "description": "",
         "id": "product-verification;verify-product-home-page",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 5,
         "name": "Verify product home page",
         "steps": [
           {
@@ -14,47 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2922339399
+              "duration": 3042651099
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "I am on 'hhhh' page",
+            "line": 6,
+            "name": "I am on 'PRODUCT STORE' page",
             "match": {
               "location": "stepDefinitions\\product_verification.js:4"
             },
             "result": {
-              "status": "failed",
-              "duration": 399310299,
-              "error_message": "Error: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m\"hhhh\"\u001b[39m\nReceived: \u001b[31m\"PRODUCT STORE\"\u001b[39m\n    at module.exports.errorHandle (C:\\Users\\houss\\Documents\\fullExample\\errorHandle.js:7:9)\n    at World.<anonymous> (C:\\Users\\houss\\Documents\\fullExample\\stepDefinitions\\product_verification.js:13:5)"
+              "status": "passed",
+              "duration": 392124300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 7,
             "name": "I click categories link",
             "match": {
               "location": "stepDefinitions\\product_verification.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1979017400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "I see 'Phones' , 'Laptops' and 'Monitors' under categories",
             "match": {
               "location": "stepDefinitions\\product_verification.js:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 595331000
             }
           },
           {
@@ -62,11 +61,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1926700
+              "duration": 2768300
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tag1",
+            "line": 4
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -76,5 +80,100 @@
     "name": "product verification",
     "tags": [],
     "uri": "features\\product_verification.feature"
+  },
+  {
+    "description": "    Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "toogle-slides;toggle-the-slides",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "toggle the slides",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3859777400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on 'PRODUCT STORE' page",
+            "match": {
+              "location": "stepDefinitions\\product_verification.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430010499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on 'toogle' button",
+            "match": {
+              "location": "stepDefinitions\\toogle_slides.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1109404899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see another image",
+            "match": {
+              "location": "stepDefinitions\\toogle_slides.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11587799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click again on the other 'toogle' button",
+            "match": {
+              "location": "stepDefinitions\\toogle_slides.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1052146700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see the initial image",
+            "match": {
+              "location": "stepDefinitions\\toogle_slides.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9134599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "toogle-slides",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "toogle slides",
+    "tags": [],
+    "uri": "features\\toogle_slides.feature"
   }
 ]

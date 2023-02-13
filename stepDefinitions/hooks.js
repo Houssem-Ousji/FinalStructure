@@ -14,6 +14,6 @@ Before(async function () {
     console.log(error.toString())
   }
 });
-After(async function () {
+After({tags: "@tag1"},async function () {
   this.browser.close()
 });
