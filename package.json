@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "tu" : "cucumber-js features/counter.feature",
-    "demo" : "cucumber-js features/product_verification.feature"
+    "tu": "cucumber-js features/counter.feature",
+    "demo": "cucumber-js features/product_verification.feature"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
   "dependencies": {
     "@cucumber/cucumber": "^8.10.0",
     "@playwright/test": "^1.30.0",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
     "playwright": "^1.30.0"
   }
 }
